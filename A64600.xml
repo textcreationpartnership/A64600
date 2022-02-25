@@ -1,0 +1,624 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Urania's temple, or, A satyr upon the silent-poets</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 21 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A64600</idno>
+            <idno type="STC">Wing U126</idno>
+            <idno type="STC">ESTC R23170</idno>
+            <idno type="EEBO-CITATION">12493387</idno>
+            <idno type="OCLC">ocm 12493387</idno>
+            <idno type="VID">62441</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A64600)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 62441)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 299:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Urania's temple, or, A satyr upon the silent-poets</title>
+               </titleStmt>
+               <extent>[2], 10 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.M. and B.B. and are to be sold by Rich. Baldwin ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>"Reproaching those poets, notably Dryden, who failed to elegize Queen Mary"--NUC pre-1956.</note>
+                  <note>Reproduction of original in British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Mary --  II, --  Queen of England, 1662-1694 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-02</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2012-02</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:62441:1" rendition="simple:additions"/>
+            <p>
+               <hi>URANIA</hi>'s Temple: OR, A SATYR UPON THE <hi>Silent-Poets.</hi>
+            </p>
+            <q>
+               <p>
+                  <hi>Carmina nulla canam</hi>
+               </p> 
+               <bibl>— Virg.</bibl>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. M.</hi> and <hi>B. B.</hi> and are to be Sold by <hi>Rich. Baldwin,</hi> near the <hi>Oxford Arms</hi> in <hi>Warwick-Lane,</hi> 1695.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:62441:2"/>
+            <pb n="1" facs="tcp:62441:2"/>
+            <head>
+               <hi>Urania</hi>'s Temple: OR, A SATYR <hi>Upon the SILENT</hi> Poets.</head>
+            <lg>
+               <l>BEneath the Foot of proud <hi>Pernaſſus</hi> Mount,</l>
+               <l>Water'd by the Eternal hallow'd <hi>Fount,</hi>
+               </l>
+               <l>Whence th' inſpir'd <hi>Siſters,</hi> the whole ſacred <hi>Nine</hi>
+               </l>
+               <l>Deliver all there <hi>Oracles Divine:</hi>
+               </l>
+               <l>A Pile their ſtands, ſtupendious Work, erect</l>
+               <l>Like <hi>Theban Tow'rs,</hi> Poetick Architect;</l>
+               <l>Spacious the <hi>Walls</hi> for the large <hi>Quire</hi> they bear,</l>
+               <l>For the whole <hi>Delphick Hierarchy</hi> ſing there.</l>
+               <l>
+                  <hi>Eternal Spring</hi> on this bleſt <hi>Temple</hi> waits,</l>
+               <l>
+                  <hi>Laurel</hi> the verdant Umbrage round the Gates.</l>
+               <l>Garlands of floury Sweets perfume the Ayre,</l>
+               <l>Our faireſt <hi>Britiſh ROSE</hi> the ſweeteſt there.</l>
+            </lg>
+            <lg>
+               <l>How rich, how all magnificently Great</l>
+               <l>The Tow'rs and Pinnacles of this proud <hi>Seat,</hi>
+               </l>
+               <l>Enough the monumental Fabrick ſtands</l>
+               <l>Erected by the <hi>MUSES</hi> Artiſt-hands;</l>
+               <l>An eaſy Coſt, nor <hi>Wealth</hi> can want, nor <hi>State,</hi>
+               </l>
+               <l>Rais'd by thoſe <hi>Founders</hi> ev'n whole Worlds create.</l>
+               <pb n="2" facs="tcp:62441:3"/>
+               <l>Around the Columns in fair <hi>Tablet-paints</hi>
+               </l>
+               <l>Hang the bright Portraits of <hi>Tranſlated Saints,</hi>
+               </l>
+               <l>
+                  <hi>Moſaick Faces</hi> all; and all enroll'd</l>
+               <l>Are <hi>holy Numbers</hi> writ in Leaves of <hi>Gold.</hi>
+               </l>
+               <l>The <hi>IO Paeans</hi> to the <hi>Mighty Dead,</hi>
+               </l>
+               <l>Inauguration Songs to th' <hi>Heav'n-crown'd Head.</hi>
+               </l>
+               <l>
+                  <hi>Incenſe</hi> is all the Altar-Offrings here,</l>
+               <l>A <hi>Veſtals</hi> fragrant sigh, or <hi>Virgins</hi> Tear,</l>
+               <l>Or thoſe more rare all <hi>Phenix</hi> Spices, <hi>LOVE;</hi>
+               </l>
+               <l>True <hi>Turtle Innocence,</hi> the Halcion <hi>Dove,</hi>
+               </l>
+               <l>So ſeldom ſeen below, and ſo high-priz'd above.</l>
+            </lg>
+            <lg>
+               <l>The pious Rites that tune this <hi>peaceful Sphere</hi>
+               </l>
+               <l>(For <hi>Harmony</hi>'s the whole Devotion here)</l>
+               <l>Are <hi>Anthems,</hi> which exalted Raptures raiſe</l>
+               <l>Or to ſome <hi>GOD,</hi> or <hi>God's Vicegerents</hi> praiſe,</l>
+               <l>
+                  <hi>Crown'd Heads;</hi> but <hi>Crown'd heads</hi> only, the True Race</l>
+               <l>Of the <hi>Coeleſtials,</hi> where each <hi>heavenly Grace,</hi>
+               </l>
+               <l>
+                  <hi>Religion, Piety,</hi> dart their brighteſt Ray,</l>
+               <l>
+                  <hi>Virtues</hi> that <hi>light</hi> and <hi>warm</hi> the World they ſway;</l>
+               <l>The whole <hi>Divinity</hi> the repreſent:</l>
+               <l>
+                  <hi>Bleſſings</hi> too ſeldom to poor Mortals lent.</l>
+               <l>True <hi>Copies</hi> of their Great <hi>Original,</hi>
+               </l>
+               <l>Our Songs <hi>rare Theme,</hi> and honour'd <hi>Wonders</hi> all.</l>
+            </lg>
+            <lg>
+               <l>One ſacred <hi>Vault</hi> alone the Temple held,</l>
+               <l>A <hi>Casket</hi> with uncommon <hi>Reliques</hi> fill'd.</l>
+               <l>To <hi>KINGS</hi> by their own <hi>Fames embalm'd,</hi> the Tomb:</l>
+               <l>Peculiar Grace, and which the narrow room</l>
+               <l>To rich <hi>Imperial Duſt</hi> can only ſpare;</l>
+               <l>Unleſs ſometimes a hallow'd <hi>Bard</hi> ſleeps there:</l>
+               <l>And 'tis but juſt, to ſhare one <hi>Funeral</hi> State</l>
+               <l>The Royal Trump the Royal Urn ſhou'd wait,</l>
+               <l>The Poet lodg'd ſo near the <hi>Duſt</hi> of <hi>Kings,</hi>
+               </l>
+               <l>Beneath the Feet of thoſe <hi>Great Lives</hi> he ſings.</l>
+            </lg>
+            <pb n="3" facs="tcp:62441:3"/>
+            <lg>
+               <l>The <hi>Goddeſs</hi> of this Roof, (for Oh no leſs</l>
+               <l>Than an <hi>Immortal</hi> muſt this <hi>Fane</hi> Poſſeſs)</l>
+               <l>
+                  <hi>URANIA</hi> of the All the moſt Divine,</l>
+               <l>Does here in her whole Soveraign Glory ſhine.</l>
+            </lg>
+            <lg>
+               <l>'Twas here, (when, lo, the fatal Call was giv'n,</l>
+               <l>That that <hi>Fair SOUL,</hi> the brighteſt Spark of Heav'n,</l>
+               <l>
+                  <hi>Albion</hi>'s divine <hi>Promethean</hi> muſt aſcend,</l>
+               <l>And to Eternal Day new Luſtre lend:)</l>
+               <l>As the <hi>Apollinanry GOD</hi> beheld</l>
+               <l>A <hi>BEAM</hi> which might ev'n his own <hi>Chariot</hi> gild,</l>
+               <l>A winged <hi>Mercury t' Urania's</hi> Shrine,</l>
+               <l>He ſent to ſummon the whole <hi>ſacred Nine.</hi>
+               </l>
+               <l>Th' <hi>Etherial Purſevant,</hi> what though he rod</l>
+               <l>On Lightning as he flew, a <hi>poſting God;</hi>
+               </l>
+               <l>The <hi>Muſical Divan</hi> was ſat before:</l>
+               <l>So ſwift Great <hi>MARY</hi>s Trump the <hi>Eccho</hi> bore,</l>
+               <l>From mourning <hi>Thames</hi> to th' murmuring <hi>Helicon</hi>-ſhore.</l>
+            </lg>
+            <lg>
+               <l>Now all th' <hi>Enthuſiaſtick Quire</hi> began</l>
+               <l>In Notes that up to Heavens high <hi>Ela</hi> ran.</l>
+               <l>No poor <hi>Lucinas</hi> to that <hi>eaſy Muſe,</hi>
+               </l>
+               <l>No <hi>Powrs</hi> were call'd that Poetry t' infuſe.</l>
+               <l>The great <hi>unſtudied Theme</hi> ſo well to thoſe</l>
+               <l>Conſenting Raptures, willing Numbers roſe:</l>
+               <l>
+                  <hi>MARY</hi> alone could their <hi>Inſpirer</hi> be,</l>
+               <l>The very <hi>LIFE</hi> they ſung all <hi>HARMONY.</hi>
+               </l>
+               <l>Nor was this Royal <hi>Hymn</hi> to <hi>Light</hi> all bound</l>
+               <l>T' <hi>Urania</hi>'s Walls alone: Th' aſcending Sound</l>
+               <l>Was hear'd above; hear'd and repeated too,</l>
+               <l>Up to her own <hi>Third Heav'n</hi> the Muſes <hi>higheſt Region</hi> flew:</l>
+               <l>Both <hi>Quires</hi> united Song. Nay, and to fill</l>
+               <l>The <hi>ſacred Chantry</hi> with more Voices ſtill;</l>
+               <l>Ev'n the moſt humble pooreſt Shepherd Breed</l>
+               <l>Taught by the ſoft <hi>Alexis</hi> well-tun'd Reed,</l>
+               <pb n="4" facs="tcp:62441:4"/>
+               <l>Their Great <hi>PASTORA</hi> ſung; on every Tree</l>
+               <l>A <hi>Chorus,</hi> the whole Grove one Rapſodie.</l>
+               <l>The mournful <hi>Philomel</hi> ſat warbling there,</l>
+               <l>Nor wants a <hi>Thorn</hi> to wake to ſuch an <hi>Ayre.</hi>
+               </l>
+               <l>Around her a whole Neſt of <hi>chanting Throats.</hi>
+               </l>
+               <l>Ev'n the aſpiring <hi>Lark,</hi> with thoſe rich Notes,</l>
+               <l>Above the very Clouds bears her proud Wings,</l>
+               <l>To mount, if poſſible, up to the <hi>Theme</hi> ſhe ſings.</l>
+               <l>
+                  <hi>MARIA</hi>'s Song (to breath her <hi>Oracles</hi>
+               </l>
+               <l>The <hi>Heavenly Truths,</hi> her wondrous <hi>Story</hi> tells)</l>
+               <l>A Theme, that ev'n inanimate Woods might move;</l>
+               <l>Make every Tree a whole <hi>Dodona</hi>'s Grove.</l>
+            </lg>
+            <lg>
+               <l>But whilſt this <hi>Univerſal Quire</hi> thus fill'd</l>
+               <l>The <hi>Delphick God</hi> (that great All-Eye) beheld,</l>
+               <l>Pleas'd with the mighty Rites; as he look'd round,</l>
+               <l>A ſullen Knot of <hi>Tongue-tied Sons</hi> he found:</l>
+               <l>With <hi>Rancour</hi> choak'd their Muſe all ſpeechleſs lyes:</l>
+               <l>'Tis true, a <hi>ſpightful Smile</hi> begins to riſe;</l>
+               <l>For their whole <hi>Souls</hi> ſpeak only through their Eyes.</l>
+               <l>
+                  <hi>Apollinary</hi> Heads, <hi>Meduſa</hi>-dreſt,</l>
+               <l>The <hi>Grin,</hi> the <hi>Hiſs,</hi> whole <hi>Gorgon Snakes</hi> their Creſt.</l>
+               <l>All true <hi>Athenian;</hi> for the Muſes Spring</l>
+               <l>Has thoſe <hi>Night-birds</hi> that <hi>boot,</hi> as thoſe that <hi>ſing.</hi>
+               </l>
+               <l>Not that a cloudy <hi>Ignorance</hi> had veil'd</l>
+               <l>Their ſhaded Senſes, or their Silence ſeal'd:</l>
+               <l>But <hi>obſtinately</hi> Mutes; and to their ſhame</l>
+               <l>A <hi>murmuring</hi> Race, no ſtrangers to that <hi>FAME.</hi>
+               </l>
+               <l>Thus <hi>ENVY,</hi> though a Fiend of inmoſt <hi>Hell,</hi>
+               </l>
+               <l>Does ſtill <hi>Heav'ns</hi> ever neareſt Borderer dwell:</l>
+               <l>Where <hi>Virtue</hi> builds her <hi>Throne,</hi> ſhe digs her <hi>Cell.</hi>
+               </l>
+               <l>'Tis true, not one but a true <hi>Muſſulman,</hi>
+               </l>
+               <l>(So high their mad prophetick <hi>Phantoms</hi> ran,)</l>
+               <l>Waits th' <hi>opening Clouds,</hi> a <hi>Mecha-pilgrims</hi> Ape</l>
+               <l>For wondrous <hi>Reſurrections</hi> all a-gape.</l>
+               <pb n="5" facs="tcp:62441:4"/>
+               <l>To their great <hi>Dagon</hi> Hecatombs divine</l>
+               <l>Are all too ſmall: But to <hi>Maria</hi>'s Shrine</l>
+               <l>Not their own Brother <hi>Cain</hi>'s lean <hi>Sheaf</hi> they bring;</l>
+               <l>No, not an empty <hi>ſtubble Offering.</hi>
+               </l>
+               <l>To <hi>Truth</hi> and <hi>Honour</hi> they're <hi>Nonjurants</hi> all:</l>
+               <l>Not one bent-knee to thoſe <hi>loath'd Names</hi> muſt fall.</l>
+               <l>But to <hi>warp'd Laws, ſtrecht Oaths</hi> (all Homage due)</l>
+               <l>Th' old <hi>Coronation Cobweb-Lawn</hi> ſtill true,</l>
+               <l>There with a keen <hi>Toads Eye,</hi> and a <hi>Larks Wing,</hi>
+               </l>
+               <l>They only want th' old <hi>Maudlin</hi> Quire to ſing.</l>
+            </lg>
+            <lg>
+               <l>This <hi>Chaos-brood,</hi> the Sons of <hi>Diſcontent,</hi>
+               </l>
+               <l>Made up of every <hi>jarring Element,</hi>
+               </l>
+               <l>
+                  <hi>Aſham'd,</hi> I dare not ſay, (that <hi>ſtranger Grace</hi>
+               </l>
+               <l>A <hi>Bluſh</hi> was never ſeen in ſuch a Face)</l>
+               <l>With a <hi>diſdainful Scorn</hi> from this <hi>bright Quire</hi>
+               </l>
+               <l>To their own darker <hi>ſullen Cells</hi> retire.</l>
+            </lg>
+            <lg>
+               <l>A <hi>Houſe</hi> there ſtands where once a <hi>Covent</hi> ſtood,</l>
+               <l>A <hi>Nurſery</hi> ſtill to the old <hi>Covent-Brood:</hi>
+               </l>
+               <l>This ever <hi>hoſpitable Roof</hi> of yore</l>
+               <l>The famous Sign of th' old <hi>Oſiris</hi> bore,</l>
+               <l>A fair <hi>red Io, hieroglyphick</hi>-fair;</l>
+               <l>For all the <hi>ſuckling Wits</hi> oth' Town <hi>milcht</hi> there.</l>
+               <l>This long old <hi>Emblematick,</hi> that had paſt</l>
+               <l>Full many a bleak Winters ſhaking blaſt,</l>
+               <l>At laſt with <hi>Age</hi> fell down, ſome ſay, <hi>Confuſion,</hi>
+               </l>
+               <l>Sham'd and quite daſht at the new <hi>REVOLUTION;</hi>
+               </l>
+               <l>Dropt out of <hi>modeſty,</hi> (as moſt ſuppoſe)</l>
+               <l>Not daring face the new bright ROYAL ROSE.</l>
+            </lg>
+            <lg>
+               <l>Here in ſupiner State, twixt reaking <hi>Tiff,</hi>
+               </l>
+               <l>And fumigating clouds of <hi>Funk</hi> and <hi>Whiff,</hi>
+               </l>
+               <l>Snug in a nook, his dusky <hi>Tripos,</hi> ſits</l>
+               <l>A <hi>Senjor Delphick</hi> 'mongſt the <hi>minor Wits;</hi>
+               </l>
+               <pb n="6" facs="tcp:62441:5"/>
+               <l>Fear'd like an <hi>Indian God,</hi> a God indeed</l>
+               <l>True <hi>Indian,</hi> ſmoak'd with his own native <hi>Weed.</hi>
+               </l>
+               <l>From this oped <hi>mouth,</hi> ſoft <hi>Eloquence</hi> rich <hi>Mint</hi>
+               </l>
+               <l>Steals now and then a keen well hammer'd <hi>Hint,</hi>
+               </l>
+               <l>Some ſharp <hi>State-rallery,</hi> or <hi>politick Squint,</hi>
+               </l>
+               <l>
+                  <hi>Hard-midwiv'd</hi> Wit, Births by <hi>ſlow Labours</hi> ſtopt,</l>
+               <l>
+                  <hi>Senſe</hi> not profuſely <hi>ſhowr'd,</hi> but only dropt.</l>
+               <l>Sometimes for <hi>Oracles</hi> yet more profound,</l>
+               <l>A titillating <hi>Sonnet</hi>'s handed round,</l>
+               <l>Some <hi>Abdication-Damon</hi> Madrigal</l>
+               <l>His own <hi>ſowr</hi> Pens too overflowing <hi>Gall.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>I muſt confeſs, in pure poetick Rage,</l>
+               <l>Bowd down to the old <hi>Moloch</hi> of that <hi>Age,</hi>
+               </l>
+               <l>His ſtrange bigotted Muſe our wonder ſaw</l>
+               <l>Tun'd to the late great <hi>Court-Tarantula.</hi>
+               </l>
+               <l>What though worn out in <hi>Pleaſures, old</hi> and <hi>ſtale</hi>
+               </l>
+               <l>the reverend <hi>Outly</hi> ſculkt within the <hi>Pale:</hi>
+               </l>
+               <l>It was enough like the old <hi>Mahomet's Pidgeon</hi>
+               </l>
+               <l>He <hi>lured</hi> to <hi>Bread,</hi> and <hi>maskt</hi> into <hi>Religion.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Had that, now ſilent, Muſe been but ſo kind</l>
+               <l>As to this <hi>Funeral Dirge</hi> her <hi>Numbers</hi> join'd,</l>
+               <l>On that great <hi>Theme</hi> what <hi>Wonders</hi> had he told:</l>
+               <l>For though the <hi>Bard,</hi> the <hi>Quill</hi> is not grown <hi>old,</hi>
+               </l>
+               <l>Writes <hi>young Apollo</hi> ſtill, with his whole Rayes</l>
+               <l>Encircled and enricht, though not his <hi>Bays.</hi>
+               </l>
+               <l>Thus when the <hi>WREATH,</hi> ſo long ſo juſtly due,</l>
+               <l>The Great <hi>MECENAS</hi> from thoſe Brows withdrew,</l>
+               <l>With pain he ſaw ſuch Merit ſunk ſo far,</l>
+               <l>Shame'd that the <hi>Dragons-Tail</hi> ſwept down the <hi>Star.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Not that the <hi>Conſcience-ſhackle</hi> tied ſo hard</l>
+               <l>But had he been the <hi>Prophet,</hi> as the <hi>Bard,</hi>
+               </l>
+               <l>Prognoſtick'd the <hi>diminitive</hi> ſlender <hi>Birth</hi>
+               </l>
+               <l>His <hi>Sev'n</hi>-hill'd <hi>Mountain-labour</hi> has brought forth,</l>
+               <pb n="7" facs="tcp:62441:5"/>
+               <l>His fore-ſeen <hi>Precipice;</hi> that <hi>Thought</hi> alone</l>
+               <l>Had ſtopt his <hi>Fall,</hi> ſecur'd him all <hi>our own:</hi>
+               </l>
+               <l>Free from his <hi>Hypocondriack Dreams</hi> he had ſlept,</l>
+               <l>And ſtill his unſold <hi>Eſau's Birthright</hi> kept.</l>
+               <l>'Tis thus we ſee him <hi>loſt,</hi> thus mourn his <hi>Fall:</hi>
+               </l>
+               <l>That ſingle <hi>Teint</hi> alone has <hi>ſullied All.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>So have I in the Muſes Garden ſeen</l>
+               <l>the ſpreading <hi>Roſe,</hi> or blooming <hi>Jaſſimine;</hi>
+               </l>
+               <l>Once from whoſe Boſome the whole <hi>Hybla</hi>-train</l>
+               <l>Th' induſtrious <hi>Treaſurers</hi> of the rich Plain,</l>
+               <l>Thoſe <hi>wingred Foragers</hi> for their fragrant Prey,</l>
+               <l>On <hi>loaded Thighs</hi> bore thouſand <hi>Sweets</hi> away;</l>
+               <l>Now ſhaded by a ſullen <hi>venom'd Gueſt</hi>
+               </l>
+               <l>
+                  <hi>Cankerd</hi> and <hi>ſooted</hi> o're t' a <hi>Spider's Neſt.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>His Sweets thus ſowr'd, what <hi>melancholy</hi> Change,</l>
+               <l>What an <hi>ill-natur'd</hi> Lour, a Face ſo ſtrange,</l>
+               <l>His <hi>Life</hi> one whole long Scene of all <hi>Unreſt,</hi>
+               </l>
+               <l>And <hi>airy Hopes</hi> his thin <hi>Cameleon</hi>-Feaſt;</l>
+               <l>Pleas'd only with the <hi>Pride</hi> of being preferr'd</l>
+               <l>The <hi>ecchoed Voice</hi> to his own <hi>liſtning Herd,</hi>
+               </l>
+               <l>A Magiſterial <hi>Belweather</hi> Tupe</l>
+               <l>The Lordly <hi>Leader</hi> of his <hi>Bleating Troop.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Methinks I hear ev'n his young Pupils cry,</l>
+               <l>We write a <hi>Junior MARY's Elegy!</hi>
+               </l>
+               <l>For full <hi>Third Days,</hi> and <hi>Claps</hi> good ſtore and hearty,</l>
+               <l>Our Work's to <hi>trim,</hi> not diſoblige a <hi>Party.</hi>
+               </l>
+               <l>What, ſhall we draw our Pens, engage our Quills</l>
+               <l>In ſuch a <hi>Cauſe;</hi> and drink our Diſh at <hi>Will</hi>'s!</l>
+               <l>We dare no more hang out, no more diſplay</l>
+               <l>A <hi>blazing</hi> Rhime that does but <hi>light</hi> that way,</l>
+               <l>Than he a <hi>Candle</hi> on a <hi>King WILL</hi>'s Day.</l>
+               <l>For Poetry, alas, on this occaſion</l>
+               <l>Is ten times worſe than an <hi>Illumination:</hi>
+               </l>
+               <pb n="8" facs="tcp:62441:6"/>
+               <l>'Tis downright to <hi>bewray</hi> our <hi>Neſts,</hi> meer Nonſenſe;</l>
+               <l>Like <hi>Clodpates</hi> Fidler ſing againſt our <hi>Conſcience.</hi>
+               </l>
+               <l>'Tis true, out of meer ſhame we rig in <hi>Blacks,</hi>
+               </l>
+               <l>The modiſh <hi>Whitehall Livery</hi> on our Backs;</l>
+               <l>But let not that <hi>dark Badge</hi> make the Court-tools</l>
+               <l>Think they have <hi>Converts</hi> of us: No poor fools,</l>
+               <l>To tell the truth, we wear this <hi>ſable Dreſs,</hi>
+               </l>
+               <l>For good old <hi>Luxemburgh,</hi> not young <hi>Queen Beſs.</hi>
+               </l>
+               <l>But now I talk of <hi>Wills,</hi> pray do not think</l>
+               <l>That we come there for ſober <hi>Coffee</hi> drink;</l>
+               <l>'Tis true we ſup our Diſh: But how! We take</l>
+               <l>The <hi>Turkiſh Liquor</hi> for the <hi>Turkiſh ſake.</hi>
+               </l>
+               <l>
+                  <hi>Lewis</hi> and <hi>Mahomet</hi> in Leagues Divine</l>
+               <l>Are th' only <hi>Gemini</hi> in our <hi>Zodiack</hi> ſhine.</l>
+               <l>
+                  <hi>Party per pale</hi> alone our <hi>Coat</hi> adorns,</l>
+               <l>We own no <hi>Croſs,</hi> but what the <hi>Creſcent</hi> horns.</l>
+            </lg>
+            <lg>
+               <l>However ſhould we feel an <hi>Itch of Verſe,</hi>
+               </l>
+               <l>To hang ſome <hi>Couplets</hi> on that Royal <hi>Herſe;</hi>
+               </l>
+               <l>On ſuch a <hi>ſubject:</hi> Death! What can <hi>we</hi> ſay?</l>
+               <l>You know our <hi>Genius</hi> lies <hi>another way.</hi>
+               </l>
+               <l>
+                  <hi>Religion</hi> and grave <hi>Sanctity!</hi> All Phlegme.</l>
+               <l>
+                  <hi>Virtue</hi> and <hi>Piety</hi> are not <hi>Our</hi> Theme.</l>
+               <l>The <hi>ſaturnine</hi> dull <hi>Features</hi> of a SAINT,</l>
+               <l>Are what our <hi>airyer</hi> Pencils nere can paint.</l>
+               <l>True, we have ſeen that <hi>ſhining Preſence</hi> warm</l>
+               <l>The <hi>Theatre,</hi> and the Spectators charm.</l>
+               <l>The Stage has felt her <hi>influencing</hi> Pow'r:</l>
+               <l>Nay, ſome of Us perhaps, at ſome kind Hour,</l>
+               <l>Have caught the <hi>Goddeſs</hi> in a <hi>Golden ſhowr.</hi>
+               </l>
+               <l>A Royal <hi>Grace</hi> of that <hi>obliging Kind,</hi>
+               </l>
+               <l>As leaves us all thoſe vaſt <hi>Arrears</hi> behind.</l>
+               <l>But to that <hi>Charmer</hi> we muſt ſtop our <hi>Ears,</hi>
+               </l>
+               <l>For <hi>Gratitude</hi> our <hi>Rubrick</hi> never bears.</l>
+               <l>Beſides <hi>Great MART</hi> in the <hi>Box,</hi> our <hi>Wit</hi>
+               </l>
+               <l>Can no more reach—Our <hi>Talent</hi> lies more fit</l>
+               <l>For little <hi>Jenny Cromwel</hi> in the <hi>Pit;</hi>
+               </l>
+               <pb n="9" facs="tcp:62441:6"/>
+               <l>For <hi>Sonnets</hi> to ſome <hi>Phyllis</hi> of the <hi>Grove</hi>
+               </l>
+               <l>Convey'd by that kind <hi>Vehicle</hi> of <hi>Love;</hi>
+               </l>
+               <l>Some ſoft <hi>She-ſinner,</hi> melting <hi>Miſs;</hi> ay, marry,</l>
+               <l>Our <hi>Pegaſus</hi> can <hi>ſwoop</hi> at ſuch a <hi>Quarry.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Theſe <hi>Doctrines</hi> our young <hi>Sulleniſts</hi> preach round,</l>
+               <l>The Texts which their <hi>poetick Silence</hi> found.</l>
+               <l>But why the <hi>Doctor</hi> of their <hi>Chair;</hi> why Thou</l>
+               <l>their great <hi>Rabbinick Voice</hi> thus ſilent too?</l>
+               <l>Cou'd <hi>Noll</hi>'s once <hi>meteor</hi> Glories blaze ſo fair,</l>
+               <l>to make Thee that all-<hi>proſtrate Zealot</hi> there?</l>
+               <l>Strange, that that <hi>Fiery Noſe</hi> cou'd boaſt that <hi>Charm,</hi>
+               </l>
+               <l>Thy <hi>Muſe</hi> with thoſe <hi>Seraphick-raptures</hi> warm!</l>
+               <l>And our fair <hi>ALBION Star</hi> to ſhine ſo <hi>bleak,</hi>
+               </l>
+               <l>
+                  <hi>HER</hi> radiant <hi>Influence</hi> ſo <hi>chill,</hi> ſo <hi>weak!</hi>
+               </l>
+               <l>
+                  <hi>Gorg'd</hi> with His riotous <hi>Feſtival</hi> of <hi>Fame,</hi>
+               </l>
+               <l>Cou'd thy weak ſtomach <hi>pule</hi> at <hi>MARY's Name!</hi>
+               </l>
+               <l>Or was thy <hi>Junior</hi> pallate more <hi>canine,</hi>
+               </l>
+               <l>And now in <hi>years</hi> grows <hi>ſqueamiſh</hi> and more <hi>fine!</hi>
+               </l>
+               <l>Fy, peiviſh <hi>Niggard,</hi> with thy flowing ſtore</l>
+               <l>To play the <hi>churl,</hi>—Excuſe thy <hi>ſhame</hi> no more.</l>
+               <l>
+                  <hi>WIT</hi>'s a <hi>free Deniſon</hi> of the whole World,</l>
+               <l>Claims <hi>Paſport</hi> every where; with ſails unfurld,</l>
+               <l>Like the fam'd <hi>Drake</hi>'s once <hi>Univerſal round,</hi>
+               </l>
+               <l>Shoud range the <hi>Globe,</hi> and know no <hi>Check</hi> nor <hi>Bound.</hi>
+               </l>
+               <l>The <hi>Muſes</hi> too woud <hi>Meanly</hi> be reproacht,</l>
+               <l>By wretched <hi>Faction,</hi> or poor <hi>Spight</hi> deboacht.</l>
+               <l>Rowze then, nor let ſuch empty <hi>phantoms</hi> fright;</l>
+               <l>But take thy <hi>generous</hi> Pen, ſit down, and <hi>write.</hi>
+               </l>
+               <l>And if the <hi>ſullen Thing</hi> be ſtill too-<hi>ſtout,</hi>
+               </l>
+               <l>Play thy own <hi>Exorciſt,</hi> and drive him out.</l>
+            </lg>
+            <lg>
+               <l>Not that th' unjuſt <hi>impoſing</hi> World would ask,</l>
+               <l>From thy kind Hands, <hi>unreaſonable</hi> Task.</l>
+               <l>For though <hi>Her Altars</hi> do not juſt with thine,</l>
+               <l>thou haſt <hi>Theme</hi> enough beſides, and all <hi>Divine.</hi>
+               </l>
+               <pb n="10" facs="tcp:62441:7"/>
+               <l>Draw but Her <hi>BEAUTY,</hi> paint each <hi>lovely Grace:</hi>
+               </l>
+               <l>There's not one <hi>Heretick-Line</hi> in that whole <hi>FACE:</hi>
+               </l>
+               <l>A <hi>Face</hi> that ev'n <hi>All Churches</hi> reconciles:</l>
+               <l>No <hi>Faith</hi> but what muſt own thoſe <hi>Angel-Smiles.</hi>
+               </l>
+               <l>From Her <hi>bright Eyes,</hi> ſurvey Her <hi>Brighter MIND,</hi>
+               </l>
+               <l>The <hi>Leading Virtue</hi> of Her whole <hi>fair Kind:</hi>
+               </l>
+               <l>Her <hi>Goodneſs, Mercy, Charity,</hi> Her whole</l>
+               <l>Rich <hi>Treaſury</hi> the <hi>Hoard</hi> of that <hi>Fair Soul:</hi>
+               </l>
+               <l>The fragrant <hi>perfumes</hi> thoſe kind <hi>Odours</hi> breath;</l>
+               <l>But above All, Her ſweeter <hi>NUPTIAL Wreath:</hi>
+               </l>
+               <l>Her bright <hi>Aſcendant MORALS;</hi> Subjects more</l>
+               <l>Than <hi>Wit</hi> can reach, <hi>Heights</hi> where no <hi>pen</hi> can ſoar,</l>
+               <l>Thoſe dear <hi>Domeſtick Menials</hi> of <hi>Her</hi> Reign,</l>
+               <l>Abſtracted from <hi>Her</hi> loftier <hi>Temple-Train.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Nay, not to give thy own dear <hi>Rome</hi> the Lye;</l>
+               <l>
+                  <hi>Her</hi> warm <hi>Devotion,</hi> ſo much <hi>Piety,</hi>
+               </l>
+               <l>A <hi>Piety,</hi> though <hi>Her miſtaken</hi> Guide,</l>
+               <l>A <hi>Zeal</hi> ſo high, if on the <hi>Erring</hi> Side,</l>
+               <l>Has <hi>Beauties</hi> ev'n for whole <hi>charm'd Worlds</hi> t' admire,</l>
+               <l>A <hi>Theme</hi> enough the <hi>niceſt Moſe</hi> t' inſpire,</l>
+               <l>Though <hi>SHE</hi> knelt only to a <hi>Veſtal Fire.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
